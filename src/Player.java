@@ -1,5 +1,5 @@
 class Player extends Person {
-      String Team;
+      private String Team;
 
       Player(String Name, Integer Age, String Team) {
             super(Name, Age);

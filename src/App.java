@@ -1,7 +1,8 @@
-class App {
+public class App {
     public static void main(String[] args) throws Exception {
         Game p = new Game("Felix", 24, "Tigers");
         p.getAge();
+        p.getName();
         p.getTeam();
         p.getScore();
         p.goal();
